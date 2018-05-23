@@ -103,7 +103,7 @@ struct image {
 
 int main(void) {
     // load input image
-    image i("lenna.png");
+    image i("data/lenna.png");
     
     // output image
     image o;
@@ -112,7 +112,7 @@ int main(void) {
     i.lbp(&o);
 
     // save output to disk
-    o.save("lenna_lbp.png");
+    o.save("data/lenna_lbp.png");
   
     return 0;
 }
